@@ -5,7 +5,8 @@ import "./index.css";
 import { UserProvider } from "./context/UserContext.jsx";
 import { ChatProvider } from "./context/ChatContext.jsx";
 
-export const server = "http://localhost:5000";
+// ✅ Updated backend server URL
+export const server = "https://rudra-chat-mulbwrkl2-rudrap2004s-projects.vercel.app";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
